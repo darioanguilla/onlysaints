@@ -20,3 +20,8 @@ You have to install these dependencies before:
 - Execute update-motd.sh (you can insert in a cron job @daily)
 - Execute server.sh (this script open an inbound connection on port 9191)
 - Make a GET request on localhost:9191
+
+## TODO
+- Compatibility with macOs and Windows (maybe impossible?)
+- Add regionale response (like: en, de, pt, etc...)
+- Containerize in docker
