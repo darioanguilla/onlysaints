@@ -22,7 +22,7 @@ You have to install these dependencies before:
 - Make a GET request on localhost:9191
 
 ## Docker
-- build the image: docker build - onlysaints:dev .
+- build the image: docker build -t onlysaints:dev .
 - run a container: docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev
 Sometimes the server stop respondin, I don't know why!
 
