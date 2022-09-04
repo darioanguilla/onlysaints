@@ -6,4 +6,4 @@ RUN apt-get update \
 WORKDIR /onlysaints
 RUN ./update-motd.sh
 EXPOSE 9191
-ENTRYPOINT ["/bin/bash","./server.sh"]
+ENTRYPOINT ["/bin/bash","/onlysaints/server.sh"]
