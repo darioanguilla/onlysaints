@@ -21,7 +21,12 @@ You have to install these dependencies before:
 - Execute server.sh (this script open an inbound connection on port 9191)
 - Make a GET request on localhost:9191
 
+## Docker
+- build the image: docker build - onlysaints:dev .
+- run a container: docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev
+Sometimes the server stop respondin, I don't know why!
+
 ## TODO
 - Compatibility with macOs and Windows (maybe impossible?)
 - Add regionale response (like: en, de, pt, etc...)
-- Containerize in docker (There is a draft Dockerfile in branch features/docker)
+
