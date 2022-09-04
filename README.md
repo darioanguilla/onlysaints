@@ -8,7 +8,7 @@ OSs is a service to set up a server that return the saints of the day
 
 ## Dependencies
 
-You have to install thes dependencies before:
+You have to install these dependencies before:
 
 - Toilet
 - Jq
