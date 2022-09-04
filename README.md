@@ -24,4 +24,4 @@ You have to install these dependencies before:
 ## TODO
 - Compatibility with macOs and Windows (maybe impossible?)
 - Add regionale response (like: en, de, pt, etc...)
-- Containerize in docker
+- Containerize in docker (There is a draft Dockerfile in branch features/docker)
