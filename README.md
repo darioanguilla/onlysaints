@@ -28,4 +28,5 @@ You have to install these dependencies before:
 ## TODO
 - Compatibility with macOs and Windows (maybe impossible?)
 - Add regionale response (like: en, de, pt, etc...)
+- Create a Dockerfile from alpine
 
