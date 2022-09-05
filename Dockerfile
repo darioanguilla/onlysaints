@@ -4,6 +4,5 @@ RUN apt-get update \
     && locale-gen it_IT.UTF-8 \
     && git config --global http.sslverify "false" && git clone -b feature/docker --single-branch https://github.com/darioanguilla/onlysaints.git
 WORKDIR /onlysaints
-RUN ./update-motd.sh
 EXPOSE 9191
 ENTRYPOINT ["/bin/bash","/onlysaints/server.sh"]
