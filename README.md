@@ -30,3 +30,6 @@ You have to install these dependencies before:
 - Add regionale response (like: en, de, pt, etc...)
 - Create a Dockerfile from alpine
 
+## License
+GNU GPLv3
+
