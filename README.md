@@ -12,7 +12,7 @@ You have to install these dependencies before:
 
 - Toilet
 - Jq
-- iconv
+- konwert
 - fold
 - boxes
 
