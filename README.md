@@ -24,7 +24,6 @@ You have to install these dependencies before:
 ## Docker
 - build the image: docker build -t onlysaints:dev .
 - run a container: docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev
-Sometimes the server stop respondin, I don't know why!
 
 ## TODO
 - Compatibility with macOs and Windows (maybe impossible?)
