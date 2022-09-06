@@ -1,7 +1,7 @@
 #!/bin/bash
-source /onlysaints
+PATH="/onlysaints:$PATH"
 echo "Killing nc"
 kill -9 $(ps | grep nc | awk '{print $1}') && echo "nc killed"
 echo "Killing server.sh"
 kill -9 $(ps | grep server.sh | awk '{print $1}') && echo "server killed"
-./start.sh
+start.sh
