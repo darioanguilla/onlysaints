@@ -4,6 +4,6 @@ RUN apt-get update \
     && locale-gen it_IT.UTF-8 \
     && git config --global http.sslverify "false" && git clone -b feature/docker --single-branch https://github.com/darioanguilla/onlysaints.git
 WORKDIR /onlysaints
-RUN crontab -l | { cat; echo "@hourly /bin/bash /onlysaints/restart.sh"; } | crontab -
+RUN crontab -l | { cat; echo "*/5 * * * * /bin/bash /onlysaints/restart.sh"; } | crontab -
 EXPOSE 9191
-ENTRYPOINT ["/bin/bash","/onlysaints/start.sh"]
+ENTRYPOINT ["/bin/bash","/onlysaints/entrypoint.sh"]
