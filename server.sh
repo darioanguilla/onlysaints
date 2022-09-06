@@ -1,6 +1,6 @@
 #!/bin/bash
 while true; do
-    out=$(ps | grep nc)
+    out="$(ps | grep nc)"
     if [[-n $out]] then
 	    kill -9 $(ps -a | grep nc | awk '{print $1}')
 	fi
