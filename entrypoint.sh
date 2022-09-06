@@ -1,6 +1,6 @@
 #!/bin/bash
 service cron start
-./restart.sh
+/onlysaints/start.sh
 while true; do
 	sleep
 done;
