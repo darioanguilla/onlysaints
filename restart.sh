@@ -11,7 +11,7 @@ if ps -a | grep start.sh > /dev/null; then
             kill -9 $(ps -a | grep start.sh | awk '{print $1}')
 fi
 
-if ps -a | grep start.sh | awk 'NR==2{print $1}' > /dev/null; then
+if ps -a | grep restart.sh | awk 'NR==2{print $1}' > /dev/null; then
             kill -9 $(ps -a | grep restart.sh | awk 'NR==1{print $1}')
 fi
 
