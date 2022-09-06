@@ -1,6 +1,6 @@
 #!/bin/bash
-#    echo "Killing nc"
-#    kill -9 $(ps | grep nc | awk '{print $1}') && echo "nc killed"
+    echo "Killing nc"
+    kill -9 $(ps | grep nc | awk '{print $1}') && echo "nc killed"
     echo "Killing server.sh"
     kill -9 $(ps | grep server.sh | awk '{print $1}') && echo "server killed"
-/onlysaints/start.sh
+/bin/bash /onlysaints/start.sh
