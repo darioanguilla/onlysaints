@@ -1,5 +1,5 @@
 #!/bin/bash
-PATH="/onlysaints:$PATH"
+export PATH="/onlysaints:$PATH"
 echo "Killing nc"
 kill -9 $(ps | grep nc | awk '{print $1}') && echo "nc killed"
 echo "Killing server.sh"
