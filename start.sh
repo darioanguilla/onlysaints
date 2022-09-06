@@ -1,3 +1,3 @@
 #!/bin/bash
-./update-motd.sh
-./server.sh
+/onlysaints/update-motd.sh
+/onlysaints/server.sh
