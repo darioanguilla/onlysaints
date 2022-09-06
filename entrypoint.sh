@@ -1,5 +1,6 @@
 #!/bin/bash
 service cron start
+./start
 while true; do
-    ./restart.sh
+		sleep
 done;
