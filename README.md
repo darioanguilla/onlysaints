@@ -3,8 +3,8 @@ _The Saints of the Day_
 
 OSs is a service to set up a server that return the saints of the day
 
-- Source [Saints of the day | https://www.vaticannews.va/it/santo-del-giorno.html]
-- Entirely written in bash
+- Source [VaticanNews](https://www.vaticannews.va/it/santo-del-giorno.html "Saints of the day")
+- Entirely written in bash for docker
 
 ## Dependencies
 
@@ -17,6 +17,7 @@ You have to install these dependencies before:
 - boxes
 
 ## Installation
+- Execute start.sh, this will:
 - Execute update-motd.sh (you can insert in a cron job @daily)
 - Execute server.sh (this script open an inbound connection on port 9191)
 - Make a GET request on localhost:9191
