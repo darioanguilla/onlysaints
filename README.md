@@ -17,6 +17,7 @@ You have to install these dependencies before:
 - boxes
 
 ## Installation
+_All the script are intended to run in a container, so if you don't maybe you have to edit all of them changing their base path_
 - Execute start.sh, this will:
 - Execute update-motd.sh (you can insert in a cron job @daily)
 - Execute server.sh (this script open an inbound connection on port 9191)
