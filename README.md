@@ -13,7 +13,7 @@ OSs is a service to set up a server that return the saints of the day
 - run a container: `docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev`
 
 ## TODO
-- Create a Dockerfile from alpine
+- Create a Dockerfile from alpine!
 
 ## License
 GNU GPLv3
