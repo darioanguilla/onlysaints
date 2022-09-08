@@ -7,10 +7,10 @@ OSs is a service to set up a server that return the saints of the day
 - Entirely written in bash for docker
 
 ## Istallation
-- clone repo: git clone -b feature/docker --single-branch https://github.com/darioanguilla/onlysaints.git
-- change dir: cd onlysaints
-- build the image: docker build -t onlysaints:dev .
-- run a container: docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev
+- clone repo: `git clone -b feature/docker --single-branch https://github.com/darioanguilla/onlysaints.git`
+- change dir: `cd onlysaints`
+- build the image: `docker build -t onlysaints:dev .`
+- run a container: `docker run --rm --name onlysaints -d -p 9191:9191 onlysaints:dev`
 
 ## TODO
 - Create a Dockerfile from alpine
