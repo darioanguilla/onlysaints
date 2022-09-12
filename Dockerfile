@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 RUN apt-get update \
-	&& apt-get install -y --no-install-recommends ca-certificates git figlet jq boxes curl locales netcat-openbsd cron \
+	&& apt-get install -y --no-install-recommends ca-certificates git figlet jq boxes curl locales netcat-openbsd cron konwert konwert-filters \
 	&& update-ca-certificates \
 	&& locale-gen it_IT.UTF-8 \
 	&& git clone https://github.com/darioanguilla/onlysaints.git
